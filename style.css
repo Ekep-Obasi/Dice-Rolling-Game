@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 body{
+  background-image: url('dice-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
