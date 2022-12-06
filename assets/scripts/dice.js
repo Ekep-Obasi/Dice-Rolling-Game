@@ -28,6 +28,7 @@ rollButton.addEventListener("click", () => {
   }
 });
 gameReset.addEventListener("click", () => {
+  rollCount = 0;
   roll = null;
   currentRollElement.innerHTML = roll;
   rollSum = null;
